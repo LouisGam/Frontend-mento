@@ -1,0 +1,42 @@
+td {
+    padding: 10px;
+    padding-left: 25px;
+    padding-right: 170px;
+    font-weight: bold;
+    color:hsl(14, 85%, 43%);
+}
+
+h2{
+    color: hsl(14, 85%, 43%);
+}
+
+tr:not(:last-child){border-bottom: 2px solid black;
+
+}
+
+table{
+   border-collapse: collapse; 
+}
+@font-face {
+    font-family:Nutrition;
+    src: url("./assets/fonts/young-serif/YoungSerif-Regular.ttf");
+}
+
+body {
+    padding: 0 50px;
+}
+
+#pt-bg {
+    background-color: hsl(330, 100%, 98%);
+    border-radius: 10px;
+    padding: 10px;
+    margin: 20px 0;
+}
+
+#changeMe {
+    background-color: rgb(85, 131, 85);
+}
+
+body {
+    outline-color: 100px;
+}
