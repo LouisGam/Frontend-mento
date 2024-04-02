@@ -1,26 +1,45 @@
+@font-face {
+    font-family:Young-Serif;
+    src: url("./assets/fonts/young-serif/YoungSerif-Regular.ttf");
+}
+
+@font-face {
+    font-family: Outfit;
+    src: url("./assets/fonts/outfit/Outfit-VariableFont_wght.ttf")
+}
+
 td {
     padding: 10px;
     padding-left: 25px;
     padding-right: 170px;
-    font-weight: bold;
+    
+}
+
+.table-metrics {
     color:hsl(14, 85%, 43%);
+    font-weight:bold;
+}
+
+h1 {
+    font-family: Young-Serif;
+    font-size: 72px;
 }
 
 h2{
     color: hsl(14, 85%, 43%);
+    font-family: Young-Serif;
 }
 
-tr:not(:last-child){border-bottom: 2px solid black;
-
+tr:not(:last-child){
+    border-bottom: 1px solid black;
+    border-color:  hsl(30, 18%, 87%);
 }
 
 table{
    border-collapse: collapse; 
+   width:100%;
 }
-@font-face {
-    font-family:Nutrition;
-    src: url("./assets/fonts/young-serif/YoungSerif-Regular.ttf");
-}
+
 
 body {
     padding: 0 50px;
@@ -39,4 +58,46 @@ body {
 
 body {
     outline-color: 100px;
+    font-family: Outfit;
+}
+
+#prep-time {
+    color: hsl(332, 51%, 32%);
+    position: relative;
+    left: 20px;
+}
+
+li {
+    line-height: 2.5;
+}
+
+ol li {
+padding-left: 25px;
+}
+
+ul li {
+padding-left: 30px;
+}
+
+ol li::marker {
+color: hsl(14, 85%, 43%);
+font-weight: 900;
+}
+
+ul li::marker {
+color: hsl(14, 85%, 43%);
+}
+
+#prep-ul li::marker {
+    color: hsl(332, 51%, 32%);
+}
+
+.radius-20 {
+    border-radius: 20px;
+}
+
+hr {
+    height: 1px;
+    background-color: hsl(30, 18%, 87%);
+    border: none;
 }
